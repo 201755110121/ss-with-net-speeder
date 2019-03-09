@@ -18,3 +18,4 @@ RUN chmod +x /usr/local/bin/net_speeder
 
 # Configure container to run as an executable
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+CMD ["ssserver" "-p" 1111 "-k" 666666 "-m" "aes-2565-cbf"]
